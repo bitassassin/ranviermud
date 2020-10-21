@@ -20,3 +20,6 @@ site/
 
 # ignore api.ai key
 bundles/ranvier-npc-behaviors/APIAIKEY
+
+# ignore VisualStudio metadata
+/.vs
