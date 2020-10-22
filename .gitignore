@@ -24,3 +24,7 @@ bundles/ranvier-npc-behaviors/APIAIKEY
 # ignore VisualStudio metadata
 /.vs
 /.vscode
+
+# ignore all of the bundle submodules
+bundles/*
+!bundles/.gitkeep
