@@ -54,7 +54,7 @@ async function main() {
     'https://github.com/RanvierMUD/telnet-networking',
     'https://github.com/RanvierMUD/websocket-networking',
   ];
-  const enabledBundles = [telnet-networking];
+  const enabledBundles = [];
 
   const modified = cp.execSync('git status -uno --porcelain').toString();
   if (modified) {
